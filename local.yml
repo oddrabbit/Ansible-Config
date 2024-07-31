@@ -1,6 +1,8 @@
-tasks:
-  - name: "Update packages"
-    ansible.builtin.dnf:
+- hosts: localhost
+  become: true
+    tasks:
+    - name: "Update packages"
+      ansible.builtin.dnf:
       update_cache: yes
       name: "*"
       state: latest
