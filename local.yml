@@ -6,3 +6,7 @@
       update_cache: yes
       name: "*"
       state: latest
+  - name: "Install net-tools"
+    ansible.builtin.dnf:
+      name: net-tools
+      state: latest
