@@ -1,3 +1,3 @@
-# ansible-config
+# Ansible
 
-Repository to learn ansible-pull.
+Ansible repository to configure my environment.
